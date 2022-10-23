@@ -30,3 +30,34 @@ $ cat homer/quotes.csv
 
 cat general/quotes.csv  
 ```
+
+## Lisa level
+
+1. Go to `lisa` folder. 
+```
+$ cd lisa
+```
+
+2. Build docker image. 
+```
+$ docker build . -t lisa
+```
+
+4. Run image.
+```
+$ docker run -it -d lisa -e SLEEP_TIME=30
+```
+
+5. Start bash terminal in the container.
+```
+$ docker exec -it {container_id} /bin/bash
+```
+
+6. Inspect characters folders
+```
+$ ls -la app
+
+$ ls -la 'Homer Simpson'
+$ cat 'Homer Simpson'/quotes.csv
+$ cat 'Homer Simpson'/counter.json
+```
