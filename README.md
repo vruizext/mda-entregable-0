@@ -3,6 +3,8 @@
 ## Maggie level
 
 Dockerized python app that fetches quotes from The Simpsons Quote API and saves them to CSV format.
+Also contains a Jupyter notebook used to set up and test the code to fetch the data from the API 
+and save to file.
 
 1. Go to `maggie` folder. 
 ```
