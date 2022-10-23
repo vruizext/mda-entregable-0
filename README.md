@@ -18,7 +18,7 @@ $ docker build . -t maggie
 
 4. Run image.
 ```
-$ docker run -it -d maggie -e SLEEP_TIME=30
+$ docker run -it -d maggie
 ```
 
 5. Start bash terminal in the container.
@@ -56,7 +56,7 @@ $ docker build . -t lisa
 
 4. Run image.
 ```
-$ docker run -it -d lisa -e SLEEP_TIME=30
+$ docker run -it -d lisa
 ```
 
 5. Start bash terminal in the container.

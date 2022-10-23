@@ -76,4 +76,4 @@ def start_app(sleep_time, limit):
 
 
 if __name__ == '__main__':
-    start_app(int(os.getenv('SLEEP_TIME', 1)), int(os.getenv('REQ_LIMIT', 999999999999999999999999)))
+    start_app(int(os.getenv('SLEEP_TIME', 30)), int(os.getenv('REQ_LIMIT', 999999999999999999999999)))
