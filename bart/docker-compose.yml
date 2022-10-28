@@ -6,8 +6,6 @@ services:
       - .:/home/bart
   jupyter:
     image: 'jupyter/scipy-notebook'
-    environment:
-      - PASSWORD="12345678"
     ports:
       - '8888:8888'
     volumes:
